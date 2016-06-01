@@ -1,0 +1,168 @@
+address	boundary	neighborhood
+211 S 46TH ST	west	north_walnut_hill
+212 S 46TH ST	west	north_walnut_hill
+213 S 46TH ST	west	north_walnut_hill
+214 S 46TH ST	west	north_walnut_hill
+215 S 46TH ST	west	north_walnut_hill
+216 S 46TH ST	west	north_walnut_hill
+217 S 46TH ST	west	north_walnut_hill
+218 S 46TH ST	west	north_walnut_hill
+219 S 46TH ST	west	north_walnut_hill
+220 S 46TH ST	west	north_walnut_hill
+221 S 46TH ST	west	north_walnut_hill
+222 S 46TH ST	west	north_walnut_hill
+223 S 46TH ST	west	north_walnut_hill
+224 S 46TH ST	west	north_walnut_hill
+225 S 46TH ST	west	north_walnut_hill
+226 S 46TH ST	west	north_walnut_hill
+227 S 46TH ST	west	north_walnut_hill
+228 S 46TH ST	west	north_walnut_hill
+229 S 46TH ST	west	north_walnut_hill
+230 S 46TH ST	west	north_walnut_hill
+231-33 S 46TH ST	west	north_walnut_hill
+232 S 46TH ST	west	north_walnut_hill
+234 S 46TH ST	west	north_walnut_hill
+235 S 46TH ST	west	walnut_hill
+237 S 46TH ST	west	walnut_hill
+239 S 46TH ST	west	walnut_hill
+241 S 46TH ST	west	walnut_hill
+242 S 46TH ST	west	walnut_hill
+243 S 46TH ST	west	walnut_hill
+244 S 46TH ST	west	walnut_hill
+245 S 46TH ST	west	walnut_hill
+246 S 46TH ST	west	walnut_hill
+247 S 46TH ST	west	walnut_hill
+248 S 46TH ST	west	walnut_hill
+249 S 46TH ST	west	walnut_hill
+250 S 46TH ST	west	walnut_hill
+251 S 46TH ST	west	walnut_hill
+252 S 46TH ST	west	walnut_hill
+253 S 46TH ST	west	walnut_hill
+254 S 46TH ST	west	walnut_hill
+255 S 46TH ST	west	walnut_hill
+256 S 46TH ST	west	walnut_hill
+257 S 46TH ST	west	walnut_hill
+258 S 46TH ST	west	walnut_hill
+259 S 46TH ST	west	walnut_hill
+260 S 46TH ST	west	spruce_hill
+262 S 46TH ST	west	spruce_hill
+264 S 46TH ST	west	spruce_hill
+266 S 46TH ST	west	spruce_hill
+268 S 46TH ST	west	spruce_hill
+4065 SANSOM ST	north	north_walnut_hill
+4400 SANSOM ST	north	north_walnut_hill
+4401 SANSOM ST	north	north_walnut_hill
+4402 SANSOM ST	north	north_walnut_hill
+4403 SANSOM ST	north	north_walnut_hill
+4404 SANSOM ST	north	north_walnut_hill
+4405 SANSOM ST	north	north_walnut_hill
+4406 SANSOM ST	north	north_walnut_hill
+4407 SANSOM ST	north	north_walnut_hill
+4408 SANSOM ST	north	north_walnut_hill
+4409 SANSOM ST	north	north_walnut_hill
+4410 SANSOM ST	north	north_walnut_hill
+4411 SANSOM ST	north	north_walnut_hill
+4412 SANSOM ST	north	north_walnut_hill
+4413 SANSOM ST	north	north_walnut_hill
+4414 SANSOM ST	north	north_walnut_hill
+4415 SANSOM ST	north	north_walnut_hill
+4416 SANSOM ST	north	north_walnut_hill
+4417 SANSOM ST	north	north_walnut_hill
+4418 SANSOM ST	north	north_walnut_hill
+4419 SANSOM ST	north	north_walnut_hill
+4420 SANSOM ST	north	north_walnut_hill
+4421 SANSOM ST	north	north_walnut_hill
+4422 SANSOM ST	north	north_walnut_hill
+4423 SANSOM ST	north	north_walnut_hill
+4424 SANSOM ST	north	north_walnut_hill
+4425 SANSOM ST	north	north_walnut_hill
+4426 SANSOM ST	north	north_walnut_hill
+4427 SANSOM ST	north	north_walnut_hill
+4428 SANSOM ST	north	north_walnut_hill
+4429 SANSOM ST	north	north_walnut_hill
+4430 SANSOM ST	north	north_walnut_hill
+4431 SANSOM ST	north	north_walnut_hill
+4432 SANSOM ST	north	north_walnut_hill
+4433 SANSOM ST	north	north_walnut_hill
+4434 SANSOM ST	north	north_walnut_hill
+4435 SANSOM ST	north	north_walnut_hill
+4436 SANSOM ST	north	north_walnut_hill
+4437 SANSOM ST	north	north_walnut_hill
+4438 SANSOM ST	north	north_walnut_hill
+4439 SANSOM ST	north	north_walnut_hill
+4440 SANSOM ST	north	north_walnut_hill
+4441 SANSOM ST	north	north_walnut_hill
+4442 SANSOM ST	north	north_walnut_hill
+4443 SANSOM ST	north	north_walnut_hill
+4444 SANSOM ST	north	north_walnut_hill
+4445 SANSOM ST	north	north_walnut_hill
+4446 SANSOM ST	north	north_walnut_hill
+4447 SANSOM ST	north	north_walnut_hill
+4430 SANSOM ST	north	north_walnut_hill
+4431 SANSOM ST	north	north_walnut_hill
+4432 SANSOM ST	north	north_walnut_hill
+4433 SANSOM ST	north	north_walnut_hill
+4434 SANSOM ST	north	north_walnut_hill
+4435 SANSOM ST	north	north_walnut_hill
+4436 SANSOM ST	north	north_walnut_hill
+4437 SANSOM ST	north	north_walnut_hill
+4438 SANSOM ST	north	north_walnut_hill
+4439 SANSOM ST	north	north_walnut_hill
+4440 SANSOM ST	north	north_walnut_hill
+4441 SANSOM ST	north	north_walnut_hill
+4442 SANSOM ST	north	north_walnut_hill
+4443 SANSOM ST	north	north_walnut_hill
+4444 SANSOM ST	north	north_walnut_hill
+4445 SANSOM ST	north	north_walnut_hill
+4446 SANSOM ST	north	north_walnut_hill
+4447 SANSOM ST	north	north_walnut_hill
+4507 SANSOM ST	north	north_walnut_hill
+4508-24 SANSOM ST	north	north_walnut_hill
+4509 SANSOM ST	north	north_walnut_hill
+4511 SANSOM ST	north	north_walnut_hill
+4513 SANSOM ST	north	north_walnut_hill
+4515 SANSOM ST	north	north_walnut_hill
+4517 SANSOM ST	north	north_walnut_hill
+4519 SANSOM ST	north	north_walnut_hill
+4521 SANSOM ST	north	north_walnut_hill
+4523 SANSOM ST	north	north_walnut_hill
+4525 SANSOM ST	north	north_walnut_hill
+4526 SANSOM ST	north	north_walnut_hill
+4527 SANSOM ST	north	north_walnut_hill
+4528 SANSOM ST	north	north_walnut_hill
+4529 SANSOM ST	north	north_walnut_hill
+4530 SANSOM ST	north	north_walnut_hill
+4531 SANSOM ST	north	north_walnut_hill
+4532 SANSOM ST	north	north_walnut_hill
+4533 SANSOM ST	north	north_walnut_hill
+4534 SANSOM ST	north	north_walnut_hill
+4535 SANSOM ST	north	north_walnut_hill
+4536 SANSOM ST	north	north_walnut_hill
+4537 SANSOM ST	north	north_walnut_hill
+4538 SANSOM ST	north	north_walnut_hill
+4539 SANSOM ST	north	north_walnut_hill
+4540 SANSOM ST	north	north_walnut_hill
+4541 SANSOM ST	north	north_walnut_hill
+4542 SANSOM ST	north	north_walnut_hill
+4543 SANSOM ST	north	north_walnut_hill
+4544 SANSOM ST	north	north_walnut_hill
+4545 SANSOM ST	north	north_walnut_hill
+4546 SANSOM ST	north	north_walnut_hill
+4547 SANSOM ST	north	north_walnut_hill
+4545 SANSOM ST	north	north_walnut_hill
+4546 SANSOM ST	north	north_walnut_hill
+4547 SANSOM ST	north	north_walnut_hill
+4603 CEDAR AVE	inside	cedar_park
+4605 CEDAR AVE	inside	cedar_park
+4607 CEDAR AVE	inside	cedar_park
+4609 CEDAR AVE	inside	cedar_park
+4611 CEDAR AVE	inside	cedar_park
+4613 CEDAR AVE	inside	cedar_park
+4616 CEDAR AVE	inside	cedar_park
+4622 CEDAR AVE	inside	cedar_park
+4623 CEDAR AVE	inside	cedar_park
+4624 CEDAR AVE	inside	cedar_park
+4625 CEDAR AVE	inside	cedar_park
+4626 CEDAR AVE	inside	cedar_park
+4631 CEDAR AVE	inside	cedar_park
+4633 CEDAR AVE	inside	cedar_park

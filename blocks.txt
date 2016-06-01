@@ -1,0 +1,44 @@
+block	boundary	neighborhood
+4000 Sansom St	north	north_walnut_hill
+4100 Sansom St	north	north_walnut_hill
+300 S 46th St	west	north_walnut_hill
+4600 Pine St	north	spruce_hill
+400 S 47th St	west	chester
+500 S 47th St	west	chester
+600 S 47th St	west	chester
+700 S 47th St	west	chester
+800 S 47th St	west	chester
+4600 Chester Ave	south	chester
+4500 Chester Ave	south	chester
+4400 Chester Ave	south	chester
+4300 Chester Ave	south	chester
+600 S 43rd St	west	woodlands
+700 S 43rd St	west	woodlands
+700 S 42nd St	east	woodlands
+500 Woodland Terrace	east	woodlands
+4000 Baltimore Ave	south	woodlands
+400 S 40th St	east	UC
+300 S 40th St	east	UC
+200 S 40th St	east	UC
+100 S 40th St	east	UC
+4500 Walnut St	inside	walnut_hill
+4600 Walnut St	outside	walnut_hill
+4500 Locust St	inside	walnut_hill
+4600 Locust St	outside	walnut_hill
+4500 Spruce St	inside	spruce_hill
+4600 Spruce St	outside	spruce_hill
+4600 Osage Ave	inside	spruce_hill
+4700 Osage Ave	outside	spruce_hill
+4600 Hazel Ave	inside	spruce_hill
+4700 Hazel Ave	outside	spruce_hill
+4600 Larchwood Ave	inside	spruce_hill
+4700 Larchwood Ave	outside	spruce_hill
+4700 Cedar Ave	outside	cedar_park
+4600 Springfield Ave	inside	clark_park
+4700 Springfield Ave	outside	clark_park
+1000 S 45th St	inside	clark_park
+1000 S 46th St	inside	clark_park
+1100 S 46th St	outside	clark_park
+4700 Windsor St	outside	baltimore_sw
+4700 Warrington Ave	outside	baltimore_sw
+900 Farragut Terrace	inside	baltimore_sw
