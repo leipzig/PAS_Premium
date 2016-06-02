@@ -173,3 +173,11 @@ Using conditional logistic regression we can place each sale in a strata of comp
 ```{r, echo=TRUE}
 summary(clogit(in_catchment ~ adj_price + sqft + pas_era + type + caseshiller + strata(clust) , props))
 ```
+
+Acknowledgements
+========================================================
+* [City of Philadelphia Property Assessments API](http://phlapi.com/opaapi.html), an [OpenDataPhilly](https://www.opendataphilly.org/) element
+
+* [PHL-opa](https://github.com/caseypt/phl-opa) wrapper by Casey Thomas
+
+* University City parcels shapefile from Mary Ellen McCarty, Office of Watersheds, Philadelphia Water
