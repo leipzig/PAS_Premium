@@ -1,5 +1,8 @@
+from snakemake.utils import R
+
 rule default:
-    input
+    input: "properties.RData"
+
 rule makeprops:
     input: "blocks.txt", "addresses.txt"
     output: "results_extended.txt"

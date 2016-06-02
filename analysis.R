@@ -102,7 +102,7 @@ case_shiller$year<-year(case_shiller$Date)
 case_shiller$month<-month(case_shiller$Date)
 getcaseshiller<-function(ayear,amonth){
   if(ayear<1987){return(63)}
-  if(ayear>2015){return(176)}
+  if(ayear>2015){return(188)}
   x<-subset(case_shiller,year==ayear & month==amonth)
   return(x$National.US[1])
 }
