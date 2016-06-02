@@ -1,3 +1,3 @@
 # PAS_Premium
 
-See the report at http://rpubs.com/leipzig/pas
+See the report at http://leipzig.github.io/PAS_Premium/
