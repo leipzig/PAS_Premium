@@ -30,7 +30,7 @@ getinsideoutside<-function(acct){
 
 
 # parcels in university city
-ucshapes <- readOGR("Parcels_UniversityCity.shp",layer = "Parcels_UniversityCity",verbose = TRUE)
+ucshapes <- readOGR("data/shapefiles/Parcels_UniversityCity.shp",layer = "Parcels_UniversityCity",verbose = TRUE)
 # get on common ground
 propshapes<-subset(ucshapes,ucshapes$BRT_ID %in% props$account_number)
 props<-subset(props,props$account_number %in% ucshapes$BRT_ID)
@@ -50,7 +50,7 @@ props$clust<-sapply(props$account_number,function(x){clustlookup[[as.character(x
 props$clust<-as.factor(props$clust)
 
 # the Penn Alexander shapefile
-passhape <- readOGR("pennalexandercatchment_poly.shp",layer="pennalexandercatchment_poly",verbose=TRUE)
+passhape <- readOGR("data/shapefiles/pennalexandercatchment_poly.shp",layer="pennalexandercatchment_poly",verbose=TRUE)
 
 mainmap <- leaflet() %>%
   addTiles() %>%
