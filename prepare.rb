@@ -78,7 +78,7 @@ end
 print ["property_id", "account_number", "full_address", "sqft","description","catchment_side","sale_date","sale_price"].join("\t") + "\n"
 
 
-CSV.foreach('blocks.txt', :headers => true, :col_sep => "\t") do |csv_obj|
+CSV.foreach('data/properties/blocks.txt', :headers => true, :col_sep => "\t") do |csv_obj|
   resp=PHLopa.search_by_block(csv_obj['block'])
   if resp.key?("data")
     props=resp["data"]["properties"]
@@ -89,7 +89,7 @@ CSV.foreach('blocks.txt', :headers => true, :col_sep => "\t") do |csv_obj|
   end
 end
 
-CSV.foreach('addresses.txt', :headers => true, :col_sep => "\t") do |csv_obj|
+CSV.foreach('data/properties/addresses.txt', :headers => true, :col_sep => "\t") do |csv_obj|
   resp=PHLopa.search_by_address(csv_obj['address'])
   if resp.key?("data")
     props=resp["data"]["properties"]

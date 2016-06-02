@@ -97,7 +97,7 @@ props$sale_date<-as.Date(props$sale_date)
 #before 1980 pretty sparse...and useless
 props %>% filter(sale_date>=as.Date('1980-01-01')) -> props
 
-case_shiller<-read.csv("cities-month.csv")
+case_shiller<-read.csv("data/references/cities-month.csv")
 case_shiller$year<-year(case_shiller$Date)
 case_shiller$month<-month(case_shiller$Date)
 getcaseshiller<-function(ayear,amonth){
@@ -111,7 +111,7 @@ props$caseshiller<-apply(props,1,function(y){getcaseshiller(year(y['sale_date'])
 
 # adjust for inflation
 monthly_cpi <-
-  read.csv("CPIAUCSL.csv", header = TRUE)
+  read.csv("data/references/CPIAUCSL.csv", header = TRUE)
 monthly_cpi$cpi_year <- year(monthly_cpi$DATE)
 yearly_cpi <- monthly_cpi %>% group_by(cpi_year) %>% summarize(cpi = mean(VALUE))
 yearly_cpi$adj_factor <- yearly_cpi$cpi/yearly_cpi$cpi[yearly_cpi$cpi_year == 2016]
