@@ -8,7 +8,7 @@ def insideoutside(block,boundary,full_address)
     return boundary
   end
   
-  if numlike = /(\d+th|\d+rd|Terrace)/.match(block)
+  if numlike = /(\d+th|\d+rd|Terrace)/i.match(block)
     stnum = numlike.captures[0]
     streettype = 'northsouth'
   else
@@ -80,17 +80,25 @@ print ["property_id", "account_number", "full_address", "sqft","description","ca
 
 CSV.foreach('blocks.txt', :headers => true, :col_sep => "\t") do |csv_obj|
   resp=PHLopa.search_by_block(csv_obj['block'])
-  props=resp["data"]["properties"]
-  $stderr.puts csv_obj['block'] + " results:" + props.length.to_s
-  doprops(props,csv_obj['block'],csv_obj['boundary'])
+  if resp.key?("data")
+    props=resp["data"]["properties"]
+    $stderr.puts csv_obj['block'] + " results:" + props.length.to_s
+    doprops(props,csv_obj['block'],csv_obj['boundary'])
+  else
+    $stderr.puts csv_obj['block']+": NO DATA"
+  end
 end
 
 CSV.foreach('addresses.txt', :headers => true, :col_sep => "\t") do |csv_obj|
   resp=PHLopa.search_by_address(csv_obj['address'])
-  props=resp["data"]["properties"]
-  $stderr.puts csv_obj['address'] + " results:" + props.length.to_s
-  if props.length > 0
-    doprops(props,csv_obj['address'],csv_obj['boundary'])
+  if resp.key?("data")
+    props=resp["data"]["properties"]
+    $stderr.puts csv_obj['address'] + " results:" + props.length.to_s
+    if props.length > 0
+      doprops(props,csv_obj['address'],csv_obj['boundary'])
+    end
+  else
+    $stderr.puts csv_obj['address']+": NO DATA"
   end
 end
 #block, boundary, *the_rest = ARGV
