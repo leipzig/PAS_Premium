@@ -8,7 +8,8 @@ library(htmlwidgets)
 library(webshot)
 #http://www.westphillylocal.com/2011/05/11/in-catchment-or-not-penn-alexander-will-be-forced-to-turn-new-students-away/
 
-read.table("results_extended.txt",header=TRUE,sep = "\t",stringsAsFactors = FALSE,quote = "") %>% filter(sale_price > 100 & sale_price < 2000000) %>% filter(sqft>0 & sqft<5000) %>% distinct() -> aprops
+if(! 'inputfile' %in% ls() ){inputfile<-"intermediates/results_extended.txt"}
+read.table(inputfile,header=TRUE,sep = "\t",stringsAsFactors = FALSE,quote = "") %>% filter(sale_price > 100 & sale_price < 2000000) %>% filter(sqft>0 & sqft<5000) %>% distinct() -> aprops
 
 
 
@@ -58,7 +59,7 @@ mainmap <- leaflet() %>%
   addPolygons(data = passhape)
 mainmap
 saveWidget(mainmap, "temp.html", selfcontained = FALSE)
-webshot("temp.html", file = "mainmap.png",cliprect = "viewport")
+webshot("temp.html", file = "intermediates/mainmap.png",cliprect = "viewport")
 
 
 
@@ -67,7 +68,7 @@ clustmap <- leaflet() %>%
   addPolygons(data = prop_xy, color = colors[prop_xy$clust])
 clustmap
 saveWidget(clustmap, "temp.html", selfcontained = FALSE)
-webshot("temp.html", file = "clustmap.png",cliprect = "viewport")
+webshot("temp.html", file = "intermediates/clustmap.png",cliprect = "viewport")
 
 
 
@@ -129,4 +130,4 @@ props$lottery <-year(props$sale_date)>=2011 & year(props$sale_date)<=2014
 props$in_catchment<-as.logical(props$catchment_side=='inside')
 props$decade<-year(props$sale_date) - (year(props$sale_date) %% 10)
 
-save(props, prop_xy, file="properties.RData",compress=TRUE)
+save(props, prop_xy, file="intermediates/properties.RData",compress=TRUE)

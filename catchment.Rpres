@@ -80,9 +80,9 @@ class: small-code
 Choosing properties
 ========================================================
 ```{r, echo=FALSE, message=FALSE, fig.width=8,fig.height=4.5,dpi=300,out.width="1920px",height="1080px"}
-load("properties.RData")
+load("intermediates/properties.RData")
 ```
-![main map](mainmap.png)
+![main map](intermediates/mainmap.png)
 
 Clustering neighborhoods
 ========================================================
@@ -92,7 +92,7 @@ hc <- hclust(dists)
 clust <- cutree(hc, 8)
 prop_xy$clust<-clust
 ```
-![cluster map](clustmap.png)
+![cluster map](intermediates/clustmap.png)
 
 Property breakdown
 ========================================================

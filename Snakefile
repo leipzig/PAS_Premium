@@ -4,17 +4,18 @@ rule default:
     input: "properties.RData"
 
 rule makeprops:
-    input: "blocks.txt", "addresses.txt"
-    output: "results_extended.txt"
+    input: "data/properties/blocks.txt", "data/properties/addresses.txt"
+    output: "intermediates/results_extended.txt"
     shell:
         """
         ruby prepare.rb > {output}
         """
 
 rule analyze:
-    input: "results_extended.txt"
-    output: "properties.RData"
+    input: "intermediates/results_extended.txt"
+    output: "intermediates/properties.RData"
     run:
         R("""
+        inputfile<-{input}
         source("analysis.R")
         """)
