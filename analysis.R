@@ -36,7 +36,7 @@ ucshapes <- readOGR("data/shapefiles/Parcels_UniversityCity.shp",layer = "Parcel
 propshapes<-subset(ucshapes,ucshapes$BRT_ID %in% props$account_number)
 props<-subset(props,props$account_number %in% ucshapes$BRT_ID)
 prop_xy <- spTransform(propshapes, CRS("+proj=longlat +datum=WGS84"))
-save(prop_xy,file="prop_xy.RData")
+save(prop_xy,file="intermediates/prop_xy.RData")
 
 #cluster
 dists<-dist(ldply(prop_xy@polygons,function(x){c(x@labpt[1],x@labpt[2])}))
