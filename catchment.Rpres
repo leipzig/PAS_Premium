@@ -2,7 +2,6 @@
 .small-code pre code {
   font-size: 1.2em;
 }
-
 .reveal h1, .reveal h2, .reveal h3 {
   word-wrap: normal;
   -moz-hyphens: none;
@@ -12,7 +11,6 @@
     position: fixed; top: 90%;
     text-align:center; width:100%;
 }
-
 .midcenter {
     position: fixed;
     top: 50%;

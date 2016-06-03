@@ -1,11 +1,12 @@
 library(leaflet)
 library(RColorBrewer)
-require(lubridate)
-require(dplyr)
+library(lubridate)
+library(dplyr)
 library(rgdal)
 library(leaflet)
 library(htmlwidgets)
 library(webshot)
+library(stringr)
 #http://www.westphillylocal.com/2011/05/11/in-catchment-or-not-penn-alexander-will-be-forced-to-turn-new-students-away/
 
 if(! 'inputfile' %in% ls() ){inputfile<-"intermediates/results_extended.txt"}
