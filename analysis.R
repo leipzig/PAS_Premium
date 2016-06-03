@@ -40,7 +40,7 @@ prop_xy <- spTransform(propshapes, CRS("+proj=longlat +datum=WGS84"))
 save(prop_xy,file="intermediates/prop_xy.RData")
 
 #cluster
-dists<-dist(ldply(prop_xy@polygons,function(x){c(x@labpt[1],x@labpt[2])}))
+dists<-dist(plyr::ldply(prop_xy@polygons,function(x){c(x@labpt[1],x@labpt[2])}))
 hc <- hclust(dists)
 clust <- cutree(hc, 8)
 prop_xy$clust<-clust
