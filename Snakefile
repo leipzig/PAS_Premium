@@ -20,6 +20,14 @@ rule analyze:
         source("analysis.R")
         """)
 
+rule report:
+    input: "intermediates/properties.RData"
+    output: "catchment.html"
+    run:
+        R("""
+        rmarkdown::render("catchment.Rpres")
+        """)
+
 rule clean:
     shell:
         """

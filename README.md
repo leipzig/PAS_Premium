@@ -14,8 +14,9 @@ conda config --add channels ruby-lang
 conda config --add channels asmeurer
 conda create -y -n catchmentenv python==3.5
 source activate catchmentenv
+conda install -c ccordoba12 pandoc
 conda install -y -c ruby-lang ruby=2.2.3
-conda install -y -c r r-leaflet r-dplyr r-stringr r-lubridate
+conda install -y -c r r-leaflet r-dplyr r-stringr r-lubridate r-rmarkdown
 conda install -y -c osgeo gdal rgdal
 conda install -y -c trent phantomjs=1.9.7
 
