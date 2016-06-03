@@ -1,7 +1,7 @@
 from snakemake.utils import R
 
 rule default:
-    input: "intermediates/properties.RData"
+    input: "catchment.html"
 
 rule makeprops:
     input: "data/properties/blocks.txt", "data/properties/addresses.txt"
@@ -31,5 +31,6 @@ rule report:
 rule clean:
     shell:
         """
+        rm catchment.html
         rm intermediates/properties.RData
         """
