@@ -2,7 +2,7 @@
 
 See the report at http://leipzig.github.io/PAS_Premium/
 
-To run from scatch on linux-64:
+The generation of this report is fully reproducible. To run from scatch on linux-64:
 ```
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 sh Miniconda3-latest-Linux-x86_64.sh
@@ -26,5 +26,6 @@ bundle
 gem install phl-opa
 cd ..
 
+snakemake clean
 snakemake
 ````
