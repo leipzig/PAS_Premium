@@ -17,7 +17,7 @@ conda install -y -c r r-leaflet r-dplyr r-stringr r-lubridate r-rmarkdown r-devt
 conda install -y -c osgeo gdal rgdal
 conda install -y -c trent phantomjs
 
-echo 'options(repos = c(CRAN = "http://cran.rstudio.com"));devtools::install_github("wch/webshot");' | R --no-save --quiet
+echo 'devtools::install_github("wch/webshot");' | R --no-save --quiet
 
 wget https://github.com/caseypt/phl-opa/archive/master.zip
 cd phl-opa-master/
