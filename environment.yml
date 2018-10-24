@@ -1,0 +1,21 @@
+channels:
+  - conda-forge
+  - bioconda
+  - ccordoba12
+  - ruby-lang
+  - r
+  - osgeo
+  - trent
+dependencies:
+  - snakemake
+  - pandoc
+  - ruby
+  - r-leaflet
+  - r-dplyr
+  - r-stringr
+  - r-lubridate
+  - r-rmarkdown
+  - r-devtools
+  - gdal
+  - rgdal
+  - phantomjs
