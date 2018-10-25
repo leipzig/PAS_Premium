@@ -179,3 +179,12 @@ Acknowledgements
 * [PHL-opa](https://github.com/caseypt/phl-opa) wrapper by Casey Thomas
 
 * University City parcels shapefile from Mary Ellen McCarty, Office of Watersheds, Philadelphia Water
+
+Reproducible Research Addendum
+========================================================
+```{r, echo=TRUE, results=verbatim}
+sessionInfo()```
+
+```{r}
+paste0("This report was produced from https://github.com/leipzig/PAS_Premium/commit/",githash)`
+```
