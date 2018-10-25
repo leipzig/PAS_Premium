@@ -12,10 +12,7 @@ RUN install_packages wget bzip2 ca-certificates gnupg2 squashfs-tools git && \
     wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh && \
     bash Miniconda3-latest-Linux-x86_64.sh -b -p /opt/conda && \
     rm Miniconda3-latest-Linux-x86_64.sh && \
-    conda update -n base conda && conda env update --name root --file /tmp/repo/environment.yml && conda clean --all -y && \
-    pip install .
-
-RUN echo 'devtools::install_github("wch/webshot");' | R --no-save --quiet
+    conda update -n base conda && conda env update --name root --file /tmp/repo/environment.yml && conda clean --all -y
 
 RUN wget https://github.com/caseypt/phl-opa/archive/master.zip
 RUN cd phl-opa-master/ && \
@@ -24,3 +21,5 @@ RUN cd phl-opa-master/ && \
     gem install phl-opa
 
 RUN snakemake clean && snakemake
+
+CMD snakemake
