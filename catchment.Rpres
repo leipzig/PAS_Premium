@@ -35,9 +35,9 @@ library(lubridate)
 library(pander)
 library(reshape)
 library(leaflet)
-library(rgdal)
 library(foreign)
 library(survival)
+library(rgdal)
 ```
 
 Background & Timeline
@@ -186,5 +186,5 @@ Reproducible Research Addendum
 sessionInfo()```
 
 ```{r}
-paste0("This report was produced from https://github.com/leipzig/PAS_Premium/commit/",githash)`
+paste0("This report was produced from https://github.com/leipzig/PAS_Premium/commit/",githash)
 ```
