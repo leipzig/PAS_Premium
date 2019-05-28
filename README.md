@@ -26,5 +26,5 @@ snakemake
 
 From the Docker image:
 ```
-docker run quay.io/leipzig
+docker run quay.io/leipzig/pas
 ```
